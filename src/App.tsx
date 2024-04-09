@@ -1,15 +1,20 @@
+
 import Believe from './components/Believe'
 import Carousal from './components/Carousal'
 import Celebrate from './components/Celebrate'
 import Stay from './components/ConnectedSection'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Info from './components/Info'
+import MapSection from './components/MapSection'
+import ReviewCarousal from './components/ReviewCarousal'
 import SmallCarousal from './components/SmallCarousal'
 
 export const slides = [
   "https://res.cloudinary.com/dxmtvj93m/image/upload/v1712618550/g5vjndr0nawbyremnt6d.jpg",
   "https://res.cloudinary.com/dxmtvj93m/image/upload/v1712618556/n1fimkesqckmhsw7ypar.jpg",
   "https://res.cloudinary.com/dxmtvj93m/image/upload/v1712618509/ptgu5aatix3uxyytsmzl.jpg",
+  "https://res.cloudinary.com/dxmtvj93m/image/upload/v1712618585/x8nfadckzkkxhaajxaod.png",
 ]
 
 function App() {
@@ -46,9 +51,12 @@ function App() {
           <div className='flex flex-col sm:flex-row'>
             <Believe />
           </div>
-          <img src="public/assets/graph.svg" alt="" />
+          <img src="/assets/graph.svg" alt="" />
         </section>
         <Celebrate />
+        <ReviewCarousal sliders={slides} />
+        <MapSection />
+        <Footer />
       </main>
       
     </>

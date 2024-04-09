@@ -16,7 +16,7 @@ const Header = () => {
             <h3>PEOPLE</h3>
         </section>
         <section className="hidden md:visible md:flex">
-            <img src="public/assets/hero.svg" alt="" />
+            <img src="/assets/hero.svg" alt="" />
         </section>
         <section className=" flex gap-3">
             <h3>CAREERS</h3>

@@ -34,6 +34,10 @@ h1 {
   line-height: 1.1;
 }
 
+h3{
+  cursor: pointer;
+}
+
 .headContainer {
   
   font-size: 16px;
@@ -78,6 +82,14 @@ h1 {
   
 }
 
+.sectionHeader4{
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 50.83px;
+  letter-spacing: -0.05em;
+  text-align: center;
+}
+
 .sectionBody{
   font-family: Inter;
   font-weight: 500;
@@ -110,6 +122,25 @@ h1 {
   text-align: left;
   color: #000000;
 }
+.sectionPara4{
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #fff;
+  padding: 12px 0; 
+}
+
+@media screen and (min-width: 1200px) {
+  .sectionPara4 {
+    font-size: 16px; 
+  }
+  h2{
+    font-size: 20px;
+  }
+
+}
 
 .sectionSpacing {
   display: flex;
@@ -122,5 +153,14 @@ h1 {
   font-size: 15px;
   font-weight: 700;
   line-height: 48px;
-  text-align: left;  
+  text-align: left; 
+  
+}
+
+.footerSection{
+  font-family: Inter;
+  font-weight: 200;
+  line-height: 39.6px;
+  text-align: left;
+
 }

@@ -10,3 +10,7 @@ export const ArrowRight = ({ size, color  }:{size: number, color: string}) => (
 export const Line = ({ width,height,  color  }:{width: number,height:number, color: string}) =>(
   <svg width={width} height={height} viewBox="0 0 235 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke={color} stroke-width="6" d="M0 3h235"/></svg>
 )
+
+export  const Custom = () => (
+  <p className="text-black">Pranshu Basak</p>
+) 
